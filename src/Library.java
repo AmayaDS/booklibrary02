@@ -15,8 +15,13 @@ public class Library {
         }
 
         public void removeBooks(Book book){
-
+            books.remove(book);
         }
+        public ArrayList < Book > getBooks() {
+            return books;
+        }
+
+        
 
     }
 }
